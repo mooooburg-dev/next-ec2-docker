@@ -2,7 +2,7 @@
   "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:518788858636:task-definition/next-js-docker:1",
   "containerDefinitions": [
     {
-      "name": "next-js-docker",
+      "name": "next-ec2-docker",
       "image": "518788858636.dkr.ecr.ap-northeast-2.amazonaws.com/next-ec2-docker",
       "cpu": 0,
       "portMappings": [
