@@ -1,4 +1,6 @@
-FROM node
+FROM node:16.19.1-alpine
+
+ENV NODE_VERSION 16.19.1
 
 WORKDIR /app
 
@@ -10,4 +12,4 @@ RUN npm run build
 
 CMD ["npm", "run", "start"]
 
-EXPOSE 3000
+EXPOSE 80
