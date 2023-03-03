@@ -1,5 +1,7 @@
 name: CI
 
+branch: master
+
 on: [push]
 
 jobs:
