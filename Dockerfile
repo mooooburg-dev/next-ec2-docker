@@ -1,7 +1,5 @@
 FROM node:16.19.1-alpine
 
-ENV NODE_VERSION 16.19.1
-
 WORKDIR /app
 
 COPY . /app
